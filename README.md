@@ -1,6 +1,4 @@
 CSC427 Final Project
-Mitsu Ogihara
-deadline: 11:59 PM, Monday, December 2, 2024
 The project aims to develop heuristic solutions for 3SAT and test their efficiency.
 1 3SAT
 A Boolean formula is in the 3-conjunctive normal form (3CNF) if it is the con- junction (AND) of 3-literal disjunctive clauses (OR of three literals), where a literal is a variable or its negation. An example of 3CNF formulas is:
