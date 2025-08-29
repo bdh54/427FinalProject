@@ -20,8 +20,7 @@ After making the assignment(s), simplify the formula by reducing each literal wh
 • If the formula has no more clauses remaining, assert that the for- mula is satisfiable and report the partial assignment.
 2. Random Search: Select an assignment by choosing one from the 2n candidate assignments with an equal probability. Then repeat the fol- lowing at most n times:
 (a) If the present assignment is satisfying, the search has been suc- cessful; report the assignment.
-3.
-(b) Otherwise, pick an arbitrary clause that is not satisfied, pick an arbitrary literal in the clause, and flip the assignment for the vari- able.
+3. (b) Otherwise, pick an arbitrary clause that is not satisfied, pick an arbitrary literal in the clause, and flip the assignment for the vari- able.
 Repeat the random search a given number of times. Assert that the formula is unsatisfiable if none of the attempts produced a satisfying assignment.
 Exhaustive Search: Given a formula with n variables, say, x1 , . . . , xn , execute the exhaustive search by creating branches using the variable with the smallest index among those remaining variables. If one sat- isfies the formula, the formula is satisfiable; otherwise, the formula is unsatisfiable.
 Random Instances
